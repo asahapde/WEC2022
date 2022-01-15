@@ -1,0 +1,48 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .matrix-element {
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  
+  .matrix-element:hover {
+    padding: 1em;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .menu-button {
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 1px;
+    cursor: pointer;
+    background-color: #AAAAAA;
+    color: black;
+  }
+  
+  .menu-button:hover {
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 1px;
+    cursor: pointer;
+    background-color: #BBBBBB;
+    color: black;
+  }

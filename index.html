@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEC2022</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Carnival Shortest Paths</h1>
+        <h2>by Cameron Hatherell, Abdullah Sahapdeen, Marcus Tuen Muk</h2>
+        <div id="container">
+        </div>
+        <div id="menubar">
+            <button type="button" class="menu-button" onclick="generateMatrix()">Generate Matrix</button>
+            <button type="button" class="menu-button" onclick="setPathSelect()">Select Path</button>
+            <button type="button" class="menu-button" onclick="setStopSelect()">Select Stops</button>
+            <button type="button" class="menu-button" onclick="resetStops()">Reset Stops</button>
+            <button type="button" class="menu-button" onclick="calculatePath()">Calculate Path</button>
+        </div>
+        <div>
+            <label for="Mtextfield">width:</label>
+            <input type="text" id="Mtextfield" value="6"><br><br>
+            <label for="Ntextfield">height:</label>
+            <input type="text" id="Ntextfield" value="6">
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
